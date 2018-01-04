@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
+	   	
+	<bean id="user" class="com.experian.learning.spring.pojo.User">
+		<property name="phones">
+			<set>
+				<value>+919893856323</value>
+				<value>+919827042248</value>
+			</set>
+		</property>
+	</bean>
+</beans>

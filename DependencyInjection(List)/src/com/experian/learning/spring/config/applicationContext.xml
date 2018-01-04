@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="st" class="com.experian.learning.spring.pojo.Student">
+		<property name="marks">
+		<list>
+			<value>100</value>
+			<value>90</value>
+			<value>80</value>
+			<value>100</value>
+			<value>40</value>
+		</list>
+		</property>
+		<property name="names">
+		<list>
+			<value>Aishwarya</value>
+			<value>Ashima</value>
+			<value>Riya</value>
+			<value>Ashwini</value>
+			<value>Shweta</value>
+		</list>
+		</property>
+	</bean>
+</beans>
